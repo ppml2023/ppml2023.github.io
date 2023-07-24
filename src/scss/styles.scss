@@ -1,0 +1,31 @@
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Scroll padding for all scroll targets on page used with
+// native CSS smooth scrolling
+// 
+// https://caniuse.com/?search=scroll-padding
+
+html {
+    scroll-padding-top: 3.5rem;
+}
+
+// Header padding accounts for the height of the navbar
+header {
+    padding-top: 6rem + 3.5rem;
+    padding-bottom: 6rem;
+}
+header a {
+    color: #f05f40cf;
+}
+
+// Section padding
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+a {text-decoration: none;}
+a:hover {color: #E91E63;text-decoration: none;}
+a:not([class]) {text-decoration: none;}
+a:not([class]):hover {text-decoration: none;}
