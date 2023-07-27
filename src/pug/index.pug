@@ -35,13 +35,14 @@ html(lang='en')
         // Header
         header.bg-primary.bg-gradient.text-white
             .container.px-4.text-center
-                h1.fw-bolder The 2022 IEEE International Workshop on 
+                h1.fw-bolder The 2022 International Workshop on 
                 h1.fw-bolder Privacy-Preserving Machine Learning
-                p.lead November 1-3, 2023. Atlanta, GA, USA
-                p 
+                h3 
                     | Co-located with 
                     a(href='https://www.sis.pitt.edu/lersais/conference/tps/2023/' target='_blank') 
                         strong IEEE TPS 2023
+                h4
+                    | (November 1-3, 2023. Atlanta, Georgia, USA)
                 //- a.btn.btn-lg.btn-light(href='#about') Start scrolling!
 
         section#about
@@ -54,8 +55,17 @@ html(lang='en')
                         p.lead 
                             | Specific topics of interest for the workshop include (but are not limited to) theoretical and empirical works in:
                         ul
-                            li Privacy enhancing technologies for (distributed) machine learning.
+                            li Privacy enhancing technologies for (distributed) machine learning
+                                ul 
+                                    li multi-party computation based on conventional garbled circuits, secret sharing, etc.  
+                                    li advanced cryptographic primitives, e.g., homomorphic encryption, functional encryption.
+                                    li differential privacy
+                                    li privacy-preserving oriented architecture design
                             li Privacy-preserving federated learning
+                                ul
+                                    li attack and defense to both horizontal and vertical FL
+                                    li asynchronous problem in PPFL
+                                    li effectiveness problem in vertical FL
                             li Adversarial machine learning
                             li Fairness and accountability for machine learning
                             li Measurement and usability for privacy-preserving machine learning
@@ -69,20 +79,64 @@ html(lang='en')
                             | We seek contributions from different research areas of computer science, information science, and information security. 
                         p.lead
                             | Authors are invited to submit a short paper of their work. 
-                            | Submissions are single-blind (non-anonymized) and should between 6 to 8 pages in the standard two column IEEE proceedings format, 
-                            | which can be found at 
-                            a(href="https://www.ieee.org/conferences_events/conferences/publishing/templates.html" target='_blank')  IEEE Manuscript Templates for Conference Proceedings
+                            | Submissions are single-blind (non-anonymized) and should between 6 to 8 pages in the standard two column 
+                            a(href='https://www.ieee.org/conferences_events/conferences/publishing/templates.html' target='_blank') IEEE proceedings format
+                                i.bi.bi-box-arrow-up-right.small-icon
                             | .
                             | Submissions will undergo a lightweight review process and will be judged on originality, relevance, interest, and clarity. 
                             | Accepted workshop paper will be presented at the workshop co-located with the joint conference either as a talk or a poster. 
                             | The proceedings of the workshop will be co-located with the joint-conference and published by the IEEE.
+                        p.lead 
+                            strong
+                                i.bi.bi-arrow-right-circle 
+                                | submit your work at
+                                a(href='#' target='_blank') easychair (link TBA)
+                                    i.bi.bi-box-arrow-up-right.small-icon
+                        p.lead 
+                            strong 
+                                i.bi.bi-arrow-right-circle 
+                                | submissions deadline: Sept.15, 2023
+
+
 
         section#organization
             .container.px-4
                 .row.gx-4.justify-content-center
                     .col-lg-8
-                        h2 Workshop Organizers
-                        p.lead
+                        h2  Organization
+                            i.small-font (by alphabetical order of surname)
+                        p.organizer
+                            i.bi.bi-person-circle
+                            a(href='https://khchow.com/' target='_blank') 
+                                strong Ka-Ho Chow
+                        p.affiliation IBM Reserch - Almaden
+
+                        p.organizer
+                            i.bi.bi-person-circle
+                            a(href='http://www.lichao.work/' target='_blank') 
+                                strong Chao Li 
+                        p.affiliation School of Computer and Information Technology, Beijing Jiaotong University
+                        
+                        p.organizer 
+                            i.bi.bi-person-circle
+                            a(href='https://yanzhaowu.me/' target='_blank') 
+                                strong Yanzhao Wu 
+                        p.affiliation Knight Foundation School of Computing and Information Sciences, Florida International University
+                        p.organizer
+                            i.bi.bi-person-circle
+                            a(href='https://runhua.me/' target='_blank') 
+                                strong Runhua Xu 
+                        p.affiliation School of Computer Science and Engineering, Beihang University
+                        
+                        p.organizer
+                            i.bi.bi-person-circle
+                            a(href='https://tarpelite.github.io/' target='_blank') 
+                                strong Tianyu Chen
+                            i.affiliation (Student Volunteer, Ph.D. Candidate)
+                        p.affiliation School of Computer Science and Engineering, Beihang University
+                        
+                        p.organizer
+                            i.bi.bi-person-circle
                             | TBA 
 
         // Footer
